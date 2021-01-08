@@ -1,0 +1,90 @@
+h1 {
+
+    color:cyan;
+    margin-left: 620px;
+
+}
+
+.header {
+
+    background-color: mediumpurple;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.menu {
+
+font-size: 29;
+margin-right: 30px;
+
+}
+
+.menu a {
+    
+    margin-left: 20px;
+
+}
+
+.outergrid {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+body {
+
+    background-color: steelblue;
+
+}
+
+.footer {
+
+    display:flex;
+    justify-content: flex-end;
+
+}
+
+a:link {
+
+    color: aquamarine;
+
+}
+
+a:visited {
+
+    color: aquamarine;
+
+}
+
+.game {
+
+    position: relative;
+
+}
+
+.game p {
+
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+
+
+}
+
+.game:hover p {
+
+    opacity: 1;
+
+}
+
+.game:hover img {
+
+    opacity: 0.33;
+
+}
